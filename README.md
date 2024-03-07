@@ -22,7 +22,7 @@ $r'= \frac{r}{k},U_i\in\mathbb{R}^{m\times r'}$, $V_i\in\mathbb{R}^{r'\times n}$
 
 $W = W_0 + \odot_{i=1}^{i=k}(\Delta_i)$ where $\Delta_i = U_iI_{r'(1\times \frac{n}{r'})}+I_{r'(\frac{m}{r'}\times 1)}V_i$
 
-$r'= \frac{r}{k}, U_i\in\mathbb{R}^{r'\times n}, V_i\in\mathbb{R}^{m\times r'}$and $rank(\odot_{i=1}^{i=k}(\Delta_i))\leq (\frac{2r}{k})^k$
+$r'= \frac{r}{k}$, $U_i\in\mathbb{R}^{r'\times n}$,  $V_i\in\mathbb{R}^{m\times r'}$ and $rank(\odot_{i=1}^{i=k}(\Delta_i))\leq (\frac{2r}{k})^k$
 
 ##### Hadamard LoRA: Activation
 
